@@ -1,0 +1,183 @@
+syntax="proto3";
+package pb;
+option go_package = "/internal/service;service";
+
+message LoginRequest{
+  // @inject_tag: json:"username" form:"username" uri:"username"
+  string Username=1;
+  // @inject_tag: json:"password" form:"password" uri:"password"
+  string Password=2;
+  // @inject_tag: json:"type" form:"type" uri:"type"
+  uint32 Type=3;
+}
+
+message LoginResponse{
+  string UserID=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message Stu {
+  string ID=1;
+  string Sn=2;
+  string Name=3;
+  string Sex=4;
+  string Password=5;
+}
+
+message GetStuListRequest {
+  string Sn=1;
+  string Name=2;
+}
+
+message GetStuListResponse {
+  repeated Stu StuList=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message CreateStuRequest {
+  Stu Student=1;
+}
+
+message CreateStuResponse {
+  string ID=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message UpdateStuRequest {
+  Stu Student=1;
+}
+
+message UpdateStuResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message DeleteStuRequest {
+  string ID=1;
+}
+
+message DeleteStuResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message Admin {
+  string ID=1;
+  string Name=2;
+  string Password=3;
+}
+
+message GetAdminListRequest {
+  string Sn=1;
+  string Name=2;
+}
+
+message GetAdminListResponse {
+  repeated Admin AdminList=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message CreateAdminRequest {
+  Admin Admin=1;
+}
+
+message CreateAdminResponse {
+  string ID=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message UpdateAdminRequest {
+  Admin Admin=1;
+}
+
+message UpdateAdminResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message DeleteAdminRequest {
+  string ID=1;
+}
+
+message DeleteAdminResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message DM {
+  string ID=1;
+  string Sn=2;
+  string Name=3;
+  string Sex=4;
+  string Password=5;
+}
+
+message GetDMListRequest {
+  string Sn=1;
+  string Name=2;
+}
+
+message GetDMListResponse {
+  repeated DM DMList=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message CreateDMRequest {
+  DM DM=1;
+}
+
+message CreateDMResponse {
+  string ID=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message UpdateDMRequest {
+  DM DM=1;
+}
+
+message UpdateDMResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message DeleteDMRequest {
+  string ID=1;
+}
+
+message DeleteDMResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+service UserService{
+  rpc UserLogin(LoginRequest) returns(LoginResponse);
+
+  rpc GetStuList(GetStuListRequest) returns(GetStuListResponse);
+  rpc CreateStu(CreateStuRequest) returns(CreateStuResponse);
+  rpc UpdateStu(UpdateStuRequest) returns(UpdateStuResponse);
+  rpc DeleteStu(DeleteStuRequest) returns(DeleteStuResponse);
+
+  rpc GetAdminList(GetAdminListRequest) returns(GetAdminListResponse);
+  rpc CreateAdmin(CreateAdminRequest) returns(CreateAdminResponse);
+  rpc UpdateAdmin(UpdateAdminRequest) returns(UpdateAdminResponse);
+  rpc DeleteAdmin(DeleteAdminRequest) returns(DeleteAdminResponse);
+
+  rpc GetDMList(GetDMListRequest) returns(GetDMListResponse);
+  rpc CreateDM(CreateDMRequest) returns(CreateDMResponse);
+  rpc UpdateDM(UpdateDMRequest) returns(UpdateDMResponse);
+  rpc DeleteDM(DeleteDMRequest) returns(DeleteDMResponse);
+}

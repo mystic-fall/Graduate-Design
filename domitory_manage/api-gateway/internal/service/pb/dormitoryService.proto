@@ -1,0 +1,162 @@
+syntax="proto3";
+package pb;
+option go_package = "/internal/service;service";
+
+message Dormitory {
+  string ID=1;
+  string BuildingID=2;
+  uint32 Floor=3;
+  uint32 LivedNumber=4;
+  uint32 MaxNumber=5;
+  string Sn=6;
+}
+
+message GetDormitoryListRequest {
+  string Sn=1;
+}
+
+message GetDormitoryListResponse {
+  repeated Dormitory DormitoryList=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message CreateDormitoryRequest {
+  Dormitory Dormitory=1;
+}
+
+message CreateDormitoryResponse {
+  string ID=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message UpdateDormitoryRequest {
+  Dormitory Dormitory=1;
+}
+
+message UpdateDormitoryResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message DeleteDormitoryRequest {
+  string ID=1;
+}
+
+message DeleteDormitoryResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message Building {
+  string ID=1;
+  string DmID=2;
+  string Location=3;
+  string Name=4;
+}
+
+message GetBuildingListRequest {
+  string Name=1;
+}
+
+message GetBuildingListResponse {
+  repeated Building BuildingList=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message CreateBuildingRequest {
+  Building Building=1;
+}
+
+message CreateBuildingResponse {
+  string ID=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message UpdateBuildingRequest {
+  Building Building=1;
+}
+
+message UpdateBuildingResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message DeleteBuildingRequest {
+  string ID=1;
+}
+
+message DeleteBuildingResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message Live {
+  string ID=1;
+  string DormitoryID=2;
+  string StudentID=3;
+  string LiveDate=4;
+}
+
+message GetLiveListRequest {
+}
+
+message GetLiveListResponse {
+  repeated Live LiveList=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message CreateLiveRequest {
+  Live Live=1;
+}
+
+message CreateLiveResponse {
+  string ID=1;
+
+  string Code=100;
+  string Msg=101;
+}
+
+message UpdateLiveRequest {
+  Live Live=1;
+}
+
+message UpdateLiveResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+message DeleteLiveRequest {
+  string ID=1;
+}
+
+message DeleteLiveResponse {
+  string Code=100;
+  string Msg=101;
+}
+
+service DormitoryService{
+  rpc GetDormitoryList(GetDormitoryListRequest) returns(GetDormitoryListResponse);
+  rpc CreateDormitory(CreateDormitoryRequest) returns(CreateDormitoryResponse);
+  rpc UpdateDormitory(UpdateDormitoryRequest) returns(UpdateDormitoryResponse);
+  rpc DeleteDormitory(DeleteDormitoryRequest) returns(DeleteDormitoryResponse);
+
+  rpc GetBuildingList(GetBuildingListRequest) returns(GetBuildingListResponse);
+  rpc CreateBuilding(CreateBuildingRequest) returns(CreateBuildingResponse);
+  rpc UpdateBuilding(UpdateBuildingRequest) returns(UpdateBuildingResponse);
+  rpc DeleteBuilding(DeleteBuildingRequest) returns(DeleteBuildingResponse);
+
+  rpc GetLiveList(GetLiveListRequest) returns(GetLiveListResponse);
+  rpc CreateLive(CreateLiveRequest) returns(CreateLiveResponse);
+  rpc UpdateLive(UpdateLiveRequest) returns(UpdateLiveResponse);
+  rpc DeleteLive(DeleteLiveRequest) returns(DeleteLiveResponse);
+}

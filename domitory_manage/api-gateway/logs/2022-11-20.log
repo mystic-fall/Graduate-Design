@@ -1,0 +1,2 @@
+time="2022-11-20 15:13:58" level=error msg="json: cannot unmarshal string into Go struct field Dormitory.floor of type uint32"
+time="2022-11-20 15:15:10" level=error msg="json: cannot unmarshal string into Go struct field Dormitory.floor of type uint32"
