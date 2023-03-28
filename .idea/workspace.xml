@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d7a88b6-489d-4d34-89ea-74f4ebfe9b4c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/domitory_manage/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/.idea/domitory_manage.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/config/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/constant/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/discovery/instance.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/discovery/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/discovery/resolver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/dto/admin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/dto/building.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/dto/dm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/dto/dormitory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/dto/live.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/dto/login.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/dto/page.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/dto/stu.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/handler/admin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/handler/building.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/handler/dm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/handler/dormitory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/handler/excel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/handler/live.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/handler/student.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/handler/user_login.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/rpc/admin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/rpc/building.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/rpc/dm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/rpc/dormitory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/rpc/live.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/rpc/stu.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/rpc/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/service/dormitoryService.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/service/dormitoryService_grpc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/service/pb/dormitoryService.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/service/pb/userService.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/service/userService.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/internal/service/userService_grpc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/logs/2022-11-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/logs/2022-11-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/logs/2022-11-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/logs/2022-11-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/logs/2022-11-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/middleware/cors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/middleware/jwt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/middleware/recover.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/routes/router.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/util/e/code.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/util/e/msg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/util/jwt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/util/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/api-gateway/util/response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/config/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/constant/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/discovery/instance.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/discovery/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/discovery/resolver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/handler/building.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/handler/dormitory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/handler/live.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/repository/building.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/repository/db_init.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/repository/dormitory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/repository/live.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/service/dormitoryService.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/service/dormitoryService_grpc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/internal/service/pb/dormitoryService.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/logs/2022-11-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/logs/2022-11-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/logs/2022-11-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/util/e/code.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/util/e/msg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/util/idgenerator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/util/jwt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/util/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/util/response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/dormitory/util/time.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/config/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/constant/constant.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/constant/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/discovery/instance.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/discovery/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/discovery/resolver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/handler/admin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/handler/dm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/handler/stu.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/handler/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/repository/admin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/repository/db_init.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/repository/dm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/repository/stu.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/service/pb/userService.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/service/userService.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/internal/service/userService_grpc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/logs/2022-11-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/logs/2022-11-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/logs/2022-11-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/logs/2022-11-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/logs/2022-11-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/util/e/code.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/util/e/msg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/util/idgenerator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/util/jwt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/util/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/util/response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domitory_manage/user/util/time.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文.docx" beforeDir="false" afterPath="$PROJECT_DIR$/论文.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://F:/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="2KO1ZnX6igxGZzRsIOZ6MxrZLQB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
